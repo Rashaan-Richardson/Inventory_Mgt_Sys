@@ -1,0 +1,6 @@
+OrderDetailID,OrderID,ProductID,QuantityOrdered,UnitPrice
+1,1,1,10,10.99
+2,1,2,5,29.99
+3,2,3,8,19.99
+4,2,4,3,39.99
+5,3,5,15,49.99

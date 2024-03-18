@@ -1,0 +1,6 @@
+ProdID,ProdName,Description,Price,QuantityAval
+1,Widget A,Small widget for everyday use,10.99,100
+2,Widget B,Large widget for heavy-duty tasks,29.99,50
+3,Widget C,Medium widget for various applications,19.99,75
+4,Widget D,Advanced widget with extra features,39.99,25
+5,Widget E,Widget designed for outdoor use,49.99,40

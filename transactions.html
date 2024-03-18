@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Transactions Table</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+        th, td {
+            border: 1px solid #dddddd;
+            text-align: left;
+            padding: 8px;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+    <h1>Transactions Table</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Transaction ID</th>
+                <th>Date</th>
+                <th>Product ID</th>
+                <th>Quantity</th>
+                <th>Transaction Type</th>
+                <th>Remarks</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for transaction in transactions %}
+            <tr>
+                <td>{{ transaction['TransactionID'] }}</td>
+                <td>{{ transaction['TransactionDate'] }}</td>
+                <td>{{ transaction['ProdID'] }}</td>
+                <td>{{ transaction['Quantity'] }}</td>
+                <td>{{ transaction['TransactionType'] }}</td>
+                <td>{{ transaction['Remarks'] }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</body>
+</html>
